@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import {App} from "../src/app"
 
 const root = document.querySelector(".container");
 
-ReactDOM.render(<h1>fuck you bitch</h1>,root);
+ReactDOM.render(<App name="Jamala"/>,root);

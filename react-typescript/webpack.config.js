@@ -18,6 +18,9 @@ module.exports = {
         }]
     },
     devtool:"source-map",
+    resolve:{
+        extensions:[".js",".ts",".tsx"]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: "./index.html"

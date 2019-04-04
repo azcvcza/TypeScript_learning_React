@@ -3,6 +3,7 @@
       "allowSyntheticDefaultImports": true,
       "jsx": "react",
       "module": "commonjs",
+      "moduleResolution": "node",
       "noImplicitAny": true,
       "outDir": "./build/",
       "preserveConstEnums": true,
